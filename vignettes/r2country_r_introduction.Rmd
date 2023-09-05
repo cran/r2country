@@ -1,0 +1,99 @@
+---
+title: "r2country R Package: Dataset of countries. Search Countries and Attributes Related to it."
+author: "Obinna (OBI) Obianom"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Dataset of countries. Search Countries and Attributes Related to it.}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+### Asess to datasets of country information - countries names, capitals, calling code, continents, time ans do on
+
+### Use for writing Rmarkdown documents and build Shiny applications
+
+## Install
+
+```
+devtools::install_github("oobianom/r2country")
+
+install.packages("r2country") 
+
+```
+
+## Datasets calls
+
+```
+data(country_calling_code) # calling code for countries
+data(country_population) # population by year for countries
+data(city_time) # time by city
+data(country_names) # country names
+data(country_money) # countries currency
+data(country_language) # country language
+data(country_capital) #country capitals
+data(country_continent)# continent countries
+
+```
+
+## Function calls included
+
+```
+
+# get all countries
+
+countries
+
+#or
+
+COUNTRIES
+
+
+```
+
+
+***
+
+```
+
+# direct functions
+
+             
+countryEndsWith        
+countryHas             
+countryStartsWith       
+languageEndsWith       
+languageHas            
+languageStartsWith     
+
+```
+
+***
+
+```
+# lists to call
+
+callingCodeOf          
+capitalOf              
+continentOf              
+currencyOf             
+languageOf             
+populationOf          
+timeIn  
+
+```
+
+***
+
+
+
+```
+some examples at <u>r2country.obi.obianom.com</u>
