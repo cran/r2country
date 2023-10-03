@@ -2,7 +2,7 @@ Package: r2country
 Type: Package
 Title: Country Data with Names, Capitals, Currencies, Populations,
         Time, Languages and so on
-Version: 2.0.2.3.0
+Version: 2.0.2.3.1
 Authors@R: c(
     person("Obinna", "Obianom", email = "idonshayo@gmail.com", role = c("aut", "cre")))
 Maintainer: Obinna Obianom <idonshayo@gmail.com>
@@ -20,7 +20,7 @@ RoxygenNote: 7.2.3
 LazyData: true
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2023-09-04 22:08:57 UTC; in198
+Packaged: 2023-10-03 15:26:17 UTC; in198
 Author: Obinna Obianom [aut, cre]
 Repository: CRAN
-Date/Publication: 2023-09-05 16:30:02 UTC
+Date/Publication: 2023-10-03 21:50:02 UTC
