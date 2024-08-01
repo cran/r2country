@@ -1,3 +1,7 @@
+# r2country 2.0.2.4.0
+
+ - Fix dependency 
+ 
 # r2country 2.0.2.3.1
 
  - [x] Fix current time data to include countries for each city

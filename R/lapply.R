@@ -218,12 +218,13 @@ timeIn <- lapply(city_time1, function(cnt){
       stt <-as.POSIXct("2025-03-09 03:00:00")
       ent <- as.POSIXct("2025-11-02 03:00:00")
     },
-    "2026" = {
+     {
       stt <-as.POSIXct("2026-03-08 03:00:00")
       ent <- as.POSIXct("2026-11-01 03:00:00")
     }
   )
-
+  #txt = "2026-03-08 03:00:00 EDT"
+  #as.numeric(regmatches(txt,regexpr("( )+[0-9]+",txt)))
   t1 <- as.numeric(us.time - stt)
   t2 <- as.numeric(us.time - ent)
   if(t1 > 0){

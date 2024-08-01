@@ -1,19 +1,33 @@
-# r2country: Compiled dataset and functions for country names, capitals, languages and so on. 
+# r2country 2.0.2.4.0 is here !
 
-### Official website: https://r2country.obi.obianom.com <img src="https://r2country.obi.obianom.com/hex-r2country.png" align="right" width="150">
+<img src="https://r2country.obi.obianom.com/hex-r2country.png" align="left" width="150">
 
-#### Quick calls to obtain various country info for use in writing R markdown and developing robust applications
+## r2country: Compiled dataset and functions for country names, capitals, languages and so on. 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
+#### View Rmd Demo: https://r2country.obi.obianom.com/visualizeCountries.html
+
+#### View Shiny App Demo: https://shinyappstore.com/a/r2country
+
+```
+
+Quick calls to obtain various country info for use 
+in writing R markdown and developing robust applications
+
+Please NOTE that currently the 'timeIn' call may not 
+provide 100% accurate result for time in particular places. 
+This aspect is being worked on for the next version, so don't fret ! 
+
+```
+
+![](https://r2country.obi.obianom.com/r2country_demo.png)
 
 ***
 
-## Install
+### Install
 
 ```
-remotes::install_github("oobianom/r2country")
-
-#or from CRAN
-
 install.packages("r2country") 
 
 ```
@@ -88,7 +102,7 @@ timeIn$`nigeria, lagos, lagos` #get the current time in Lagos, Nigeria
 
 ### Get more examples
 
-For complete list, go to official website above
+🔴 For complete list, go to official website above
 
 
 
